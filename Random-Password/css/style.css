@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    background-color: #002339 !important;
+    color: #fff !important;
+}
+.copy-confirmation {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #00c853;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 1000;
+}
